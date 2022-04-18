@@ -6,7 +6,9 @@
 <font id="iconfont" horiz-adv-x="1000" >
 <font-face font-family="iconfont" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
-<glyph glyph-name="drawing" unicode="&#xe800;" d="M25 596h950c22 0 28-13 12-28l-458-452c-16-16-42-16-58 0l-458 452c-16 15-10 28 12 28z" horiz-adv-x="1000" />
+<glyph glyph-name="dropdown" unicode="&#xe001;" d="M34 584c-19 0-23-11-10-23l453-435c13-13 34-13 47 0l452 435c13 12 9 23-10 23h-166z" horiz-adv-x="1000" />
+
+<glyph glyph-name="search" unicode="&#xe002;" d="M667 850c-184 0-334-150-334-333 0-72 23-139 62-193l-379-379a56 56 0 0 1 0-79 56 56 0 0 1 79 0l379 379c54-39 121-62 193-62 183 0 333 150 333 334 0 183-150 333-333 333z m0-111c123 0 222-99 222-222 0-124-99-223-222-223-124 0-223 99-223 223 0 123 99 222 223 222z" horiz-adv-x="1000" />
 </font>
 </defs>
 </svg>

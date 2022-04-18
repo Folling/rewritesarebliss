@@ -1,2 +1,3 @@
 
-.icon-drawing:before { content: '\e800'; } /* '' */
+.icon-dropdown:before { content: '\e001'; } /* '' */
+.icon-search:before { content: '\e002'; } /* '' */
