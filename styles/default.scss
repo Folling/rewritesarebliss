@@ -25,6 +25,7 @@ body {
 }
 
 .dropdown-icon {
+    margin-top: 5px;
     &:before {
         content:'\e800';
     }
@@ -89,17 +90,11 @@ body {
   cursor: pointer;
 
   i {
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 5px;
     text-align: center;
     height: fit-content;
     align-self: center;
-  }
-
-  &:hover {
-    color: $contrast;
-    p, i, > a {
-      color: $contrast;
-    }
   }
 
   a {
@@ -109,6 +104,13 @@ body {
     width: 100%;
 
     &:hover {
+      color: $contrast;
+    }
+  }
+
+  &:hover {
+    color: $contrast;
+    p, i, > a {
       color: $contrast;
     }
   }
