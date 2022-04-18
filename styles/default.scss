@@ -24,10 +24,15 @@ body {
     font-weight: normal;
 }
 
-.dropdown-icon {
-    margin-top: 5px;
+.search-icon {
     &:before {
-        content:'\e800';
+        content: "\E001";
+    }
+}
+
+.dropdown-icon {
+    &:before {
+        content: "\E002";
     }
 }
 
