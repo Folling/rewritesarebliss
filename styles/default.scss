@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: 'iconfont';
-    src: url('/media/iconfont/font/iconfont.woff') format('woff');
+    src: url('/media/iconfont/font/iconfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,13 +24,13 @@ body {
     font-weight: normal;
 }
 
-.search-icon {
+.dropdown-icon {
     &:before {
         content: "\E001";
     }
 }
 
-.dropdown-icon {
+.search-icon {
     &:before {
         content: "\E002";
     }
@@ -216,8 +216,7 @@ body {
 
 #search_input_icon {
   font-size: 20px;
-  margin-right: 10px;
-  margin-top: 2px;
+  margin-right: 5px;
 }
 
 .menu_icon {
