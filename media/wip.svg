@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1280"
-   height="720"
-   viewBox="0 0 338.66667 190.5"
+   width="338.93127"
+   height="190.76515"
+   viewBox="0 0 338.93127 190.76515"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,9 +13,9 @@
      id="defs2">
     <rect
        x="137.6001"
-       y="267.59997"
+       y="267.59998"
        width="1385.6001"
-       height="249.60009"
+       height="249.60008"
        id="rect10922" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -550,6 +550,6 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:84.8709px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect10922);fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06089"><tspan
          x="137.59961"
          y="344.82154"
-         id="tspan1451">UNDER CONSTRUCTION</tspan></text>
+         id="tspan1651">UNDER CONSTRUCTION</tspan></text>
   </g>
 </svg>
