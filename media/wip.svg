@@ -7,49 +7,8 @@
    viewBox="0 0 338.66667 190.5"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
-   sodipodi:docname="wip.svg"
-   inkscape:export-filename="/home/folling/coding/projects/rewritesarebliss/media/wip.png"
-   inkscape:export-xdpi="95.999718"
-   inkscape:export-ydpi="95.999718"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="true"
-     inkscape:document-units="px"
-     showgrid="true"
-     units="px"
-     inkscape:snap-path-clip="true"
-     inkscape:snap-path-mask="true"
-     guidetolerance="10000"
-     objecttolerance="10000"
-     inkscape:snap-perpendicular="true"
-     inkscape:snap-tangential="true"
-     inkscape:showpageshadow="false"
-     showborder="true"
-     inkscape:zoom="1"
-     inkscape:cx="394.5"
-     inkscape:cy="96"
-     inkscape:window-width="1920"
-     inkscape:window-height="1012"
-     inkscape:window-x="1920"
-     inkscape:window-y="38"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2940"
-       spacingx="0.13229167"
-       spacingy="0.13229167" />
-  </sodipodi:namedview>
   <defs
      id="defs2">
     <rect
@@ -340,8 +299,6 @@
     </clipPath>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1">
     <rect
        style="fill:#ff9800;fill-opacity:1;stroke:none;stroke-width:0.264217;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -351,10 +308,7 @@
        x="0.13227685"
        y="-0.1322847"
        clip-path="url(#clipPath7858)"
-       transform="matrix(1,0,0,1.0027817,-0.13227685,0.13265268)"
-       inkscape:export-filename="/home/folling/coding/projects/rewritesarebliss/media/wip.png"
-       inkscape:export-xdpi="95.866852"
-       inkscape:export-ydpi="95.866852" />
+       transform="matrix(1,0,0,1.0027817,-0.13227685,0.13265268)" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.286006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
        id="rect3933"
@@ -596,6 +550,6 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:84.8709px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect10922);fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06089"><tspan
          x="137.59961"
          y="344.82154"
-         id="tspan1889">UNDER CONSTRUCTION</tspan></text>
+         id="tspan1451">UNDER CONSTRUCTION</tspan></text>
   </g>
 </svg>
