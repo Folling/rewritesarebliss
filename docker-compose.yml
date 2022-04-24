@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  nginx:
+    container_name: nginx
+    build: .
+    volumes:
+      - ./out:/srv/rewritesarebliss:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "8123:80"
+
