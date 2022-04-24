@@ -18,10 +18,6 @@ body {
     font-style: normal;
 }
 
-img {
-    width: 100%;
-}
-
 .icon {
     font-family: 'iconfont';
     font-style: normal;
@@ -40,9 +36,13 @@ img {
     }
 }
 
+img {
+    width: 100%;
+}
+
 #page {
   display: grid;
-  grid-template-columns: 1fr 60em 1fr;
+  grid-template-columns: 1fr minmax(auto, 60em) 1fr;
   grid-template-rows: 50px auto;
   height: 100vh;
   overflow: auto;
@@ -51,7 +51,7 @@ img {
 #header {
   position: sticky;
   display: grid;
-  grid-template-columns: 1fr 60em 1fr;
+  grid-template-columns: 1fr minmax(auto, 60em) 1fr;
   top: 0px;
   grid-column-start: 1;
   grid-column-end: span 3;
