@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     hljs.highlightAll();
-    let header = document.getElementById("header");
     let page = document.getElementById("page");
+    let header = document.getElementById("header");
     let ticking = false;
 
     page.onscroll = (e) => {

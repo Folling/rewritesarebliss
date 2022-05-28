@@ -1,35 +1,8 @@
-# Header1
-## Header2
-### Header3
-#### Header4
-##### Header5
-###### Header6
-[link](https://www.wikipedia.com)
----
-![image](/media/image.jpg)
-*italic*
-**bold**
-***italic bold***
-_underlined_
-~stroke-through~
----
-```rust
-let x = foobar();
-println!("{:?}", x + 5);
-Ok(())
-```
-```
-no language code-block
-```
-`inline code`
+# 1.0 Introduction
+Welcome to my blog!
 
-A **styled** *bit* of _text_ that
-[contains](https://www.duckduckgo.com) ~various~
- ~_***text styles***_~ which
----
-separates properly and supports `inline code`...
-neat. I love
-me
-some
-properly formatted
-text
+## 2.0 Motivation
+This blog exists because of the following three reasons:
+- I want it to
+- I really want it to
+- I hope you **want** it [too](https://wikipedia.com/too)
