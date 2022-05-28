@@ -1,16 +1,6 @@
 @use "variables" as *;
 @use "helpers" as *;
 
-* {
-    color: $text;
-}
-
-body {
-    margin: 0px;
-    height: 100vh;
-    background-color: $medium;
-}
-
 @font-face {
     font-family: 'iconfont';
     src: url('/media/iconfont/font/iconfont.ttf') format('truetype');
@@ -26,6 +16,7 @@ body {
 
 .dropdown-icon {
     &:before {
+        font-size: 8pt;
         content: "\E001";
     }
 }
@@ -36,49 +27,176 @@ body {
     }
 }
 
-img {
-    width: 25%;
+* {
+    color: $text;
 }
 
-p {
-    padding: 2em 0 2em 0;
-}
+body {
+    overflow: hidden;
+    margin: auto;
+    height: 100vh;
+    background-color: $medium;
+    max-width: 1000pt;
 
-ol {
-    counter-reset: item;
+    img {
+        width: 25%;
+    }
 
-    li {
-        display: block;
+    #logo {
+        height: 2rem;
+        width: unset !important;
+    }
 
-        &:before {
-            content: counters(item, ".") ". ";
-            counter-increment: item;
-        }
+    p {
+        padding: 0.5rem 0 0.5rem 0;
+    }
+
+    ol {
+        counter-reset: item;
 
         li {
+            display: block;
+
             &:before {
-                content: counters(item, ".") " ";
-                counter-increment: item
+                content: counters(item, ".") ". ";
+                counter-increment: item;
+            }
+
+            li {
+                &:before {
+                    content: counters(item, ".") " ";
+                    counter-increment: item
+                }
             }
         }
     }
-}
 
-#page {
-    display: grid
-}
+    #page {
+        display: grid
+    }
 
-#header {
-    position: sticky;
-    top: 0px;
-}
+    #header {
+        position: sticky;
+        top: 0px;
 
-#main {
+        display: flex;
 
-}
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
 
-#footer {
+        padding: 0 1em;
 
+        @media (max-width: 750px) {
+            #small_nav {
+            }
+
+            #nav {
+                display: none;
+            }
+
+            #search_input {
+                display: none;
+            }
+        }
+
+        @media (min-width: 750px) {
+            #small_nav {
+                display: none;
+            }
+
+            #nav {
+                display: flex;
+
+                width: 70%;
+                justify-content: space-around;
+                align-items: center;
+
+                .dropdown {
+                    display: inline-block;
+
+                    &:hover {
+                        .dropdown_content {
+                            display: flex;
+                        }
+                    }
+                }
+
+                .dropdown_content {
+                    display: none;
+                    flex-direction: column;
+                    padding: 0px 10px;
+                    margin-left: -10px;
+                    position: absolute;
+                    background-color: $dark;
+                    min-width: 160px;
+                    height: fit-content;
+                    @include border(1px solid black, left, bottom, right);
+                    box-shadow: 0px 0px 10px 5px black;
+                    z-index: -1;
+                    clip-path: inset(0px -20px -20px -20px);
+
+                    a {
+                        align-self: center;
+                        padding: 5px 0px;
+                        margin-bottom: 10px;
+                        width: 100%;
+                        height: 25px;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: $contrast;
+                        }
+                    }
+
+                    hr {
+                        width: 100%;
+                        margin-top: -4px;
+                        margin-bottom: -4px;
+                        border: 1px dotted $text;
+                        border-style: none none dotted;
+                    }
+
+                    &:before, &:after {
+                        content: " ";
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        width: 15px;
+                    }
+
+                    .tl_menu_item {
+                        padding: 10px;
+                    }
+                }
+            }
+
+            #search_input {
+                display: flex;
+                flex-direction: row;
+
+                height: min-content;
+
+                #search_label {
+                    display: none;
+                }
+
+                .search-icon {
+                    &:before {
+                        margin-left: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #main {
+
+    }
+
+    #footer {
+
+    }
 }
 
 //
