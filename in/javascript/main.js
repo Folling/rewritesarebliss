@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
     hljs.highlightAll();
-    let page = document.getElementById("page");
+    let body = document.body;
     let header = document.getElementById("header");
+
     let ticking = false;
 
-    page.onscroll = (e) => {
-        lastKnownScrollPosition = window.scrollY;
-
+    body.onscroll = (e) => {
         if (!ticking) {
             window.requestAnimationFrame(function() {
-                if (page.scrollTop > 0) {
+                let top = (document.documentElement && document.documentElement.scrollTop) ||
+                    document.body.scrollTop;
+
+                if (top > 0) {
                     header.classList.add("scrolled_page");
                 } else {
                     header.classList.remove("scrolled_page");

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Rewrites Are Bliss</title>
-    <meta content="width=device-width initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" type="text/css" href="/css/default.css"/>
     <link rel="stylesheet" href="/css/codetheme.css">
     <script src="/vendor/highlight/highlight.min.js"></script>
@@ -10,62 +10,64 @@
 <body>
     <div id="page">
         <header id="header">
-            <img id="logo" src="/media/logo.svg" alt="logo"/>
-            <div id="small_nav">
-                Hamburger
-            </div>
-            <nav id="nav">
-                <div class="tl_menu_item">
-                    <a href="/home/">Home</a>
+            <div id="container">
+                <img id="logo" src="/media/logo.svg" alt="logo"/>
+                <div id="small_nav">
+                    Hamburger
                 </div>
-                <div class="dropdown tl_menu_item">
+                <nav id="nav">
                     <div class="tl_menu_item">
-                        <a href="/projects/">Projects</a>
-                        <i class="icon dropdown-icon"></i>
+                        <a href="/home/">Home</a>
                     </div>
-                    <div class="dropdown_content">
-                        <a href="/projects/alloy/">Alloy</a>
-                        <a href="/projects/ikarus/">Ikarus</a>
-                        <a href="/projects/bloggers/">Bloggers</a>
-                        <a href="/projects/performancer/">Performancer</a>
+                    <div class="dropdown tl_menu_item">
+                        <div class="tl_menu_item">
+                            <a href="/projects/">Projects</a>
+                            <i class="icon dropdown-icon"></i>
+                        </div>
+                        <div class="dropdown_content">
+                            <a href="/projects/alloy/">Alloy</a>
+                            <a href="/projects/ikarus/">Ikarus</a>
+                            <a href="/projects/bloggers/">Bloggers</a>
+                            <a href="/projects/performancer/">Performancer</a>
+                        </div>
                     </div>
+                    <div class="dropdown tl_menu_item">
+                        <div class="tl_menu_item">
+                            <a href="/orientation/">Orientation</a>
+                            <i class="icon dropdown-icon"></i>
+                        </div>
+                        <div class="dropdown_content">
+                            <a href="/orientation/categories/">Categories</a>
+                            <a href="/orientation/tags/">Tags</a>
+                        </div>
+                    </div>
+                    <div class="dropdown tl_menu_item">
+                        <div class="tl_menu_item">
+                            <a href="/about/">About</a>
+                            <i class="icon dropdown-icon"></i>
+                        </div>
+                        <div class="dropdown_content">
+                            <a href="/about/bio/">Bio</a>
+                            <a href="/about/contact/">Contact</a>
+                            <a href="/about/socials/">Socials</a>
+                        </div>
+                    </div>
+                    <div class="dropdown tl_menu_item">
+                        <div class="tl_menu_item">
+                            <a href="/donate/">Donate</a>
+                            <i class="icon dropdown-icon"></i>
+                        </div>
+                        <div class="dropdown_content">
+                            <a href="/donate/patreon/">Patreon</a>
+                            <a href="/donate/paypal/">PayPal</a>
+                        </div>
+                    </div>
+                </nav>
+                <div id="search_input">
+                    <label id="search_label" for="search_input_field">Search</label>
+                    <input type="search" autocomplete="off" placeholder="Search Content..." id="search_input_field"/>
+                    <i id="search_input_icon" class="icon search-icon"></i>
                 </div>
-                <div class="dropdown tl_menu_item">
-                    <div class="tl_menu_item">
-                        <a href="/orientation/">Orientation</a>
-                        <i class="icon dropdown-icon"></i>
-                    </div>
-                    <div class="dropdown_content">
-                        <a href="/orientation/categories/">Categories</a>
-                        <a href="/orientation/tags/">Tags</a>
-                    </div>
-                </div>
-                <div class="dropdown tl_menu_item">
-                    <div class="tl_menu_item">
-                        <a href="/about/">About</a>
-                        <i class="icon dropdown-icon"></i>
-                    </div>
-                    <div class="dropdown_content">
-                        <a href="/about/bio/">Bio</a>
-                        <a href="/about/contact/">Contact</a>
-                        <a href="/about/socials/">Socials</a>
-                    </div>
-                </div>
-                <div class="dropdown tl_menu_item">
-                    <div class="tl_menu_item">
-                        <a href="/donate/">Donate</a>
-                        <i class="icon dropdown-icon"></i>
-                    </div>
-                    <div class="dropdown_content">
-                        <a href="/donate/patreon/">Patreon</a>
-                        <a href="/donate/paypal/">PayPal</a>
-                    </div>
-                </div>
-            </nav>
-            <div id="search_input">
-                <label id="search_label" for="search_input_field">Search</label>
-                <input type="search" placeholder="Search Content..." id="search_input_field"/>
-                <i id="search_input_icon" class="icon search-icon"></i>
             </div>
         </header>
 
